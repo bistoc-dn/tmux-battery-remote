@@ -1,6 +1,10 @@
-# Tmux battery status
+# Tmux battery status for remote machines
 
 Enables displaying battery percentage and status icon in tmux status-right.
+
+## Dependencies
+
+This plugin is designed to work in conjunction with a remote service capable of transmitting battery information over the network and writing it to a local file. For optimal functionality, you'll need to set up such a service on the machine you wish to monitor. An example of such a service can be found here: [Battery Status Monitor (MacOS only)](https://github.com/bistoc-dn/battery-status-over-scp).
 
 ## Installation
 
